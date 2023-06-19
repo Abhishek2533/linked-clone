@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import Connections from "../Pages/Connections";
 import { getCurrentUser } from "../api/FirestoreAPI";
-import Topbar from "../components/common/Topbar";
+import TopBar from "../components/common/TopBar";
 
 export default function ConnectionLayout() {
   const [currentUser, setCurrentUser] = useState({});
@@ -11,7 +11,7 @@ export default function ConnectionLayout() {
   }, []);
   return (
     <div>
-      <Topbar currentUser={currentUser} />
+      <TopBar currentUser={currentUser} />
       <Connections currentUser={currentUser} />
     </div>
   );
