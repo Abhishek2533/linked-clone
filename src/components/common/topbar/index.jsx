@@ -15,6 +15,7 @@ import { getAllUsers } from "../../../api/FirestoreAPI";
 import ProfilePopup from "../ProfilePopup";
 import "./index.scss";
 
+
 export default function TopBar({ currentUser }) {
 
   const [popupVisible, setPopupVisible] = useState(false);
