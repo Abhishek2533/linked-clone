@@ -16,7 +16,7 @@ import ProfilePopup from "../ProfilePopup";
 import "./index.scss";
 
 export default function TopBar({ currentUser }) {
-
+  
   const [popupVisible, setPopupVisible] = useState(false);
   const [isSearch, setIsSearch] = useState(false);
   const [users, setUsers] = useState([]);

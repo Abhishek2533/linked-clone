@@ -72,3 +72,77 @@
         }
     }
 }
+
+@media screen and (325px < width <= 768px) {
+    .connections-main { 
+        margin: 15px;
+        gap: 0;
+        .headline {
+            margin-top: -15px;
+            font-size: 20px;
+        }
+        .grid-child {
+            width: 38vw;
+            height: 250px;
+    
+            img {
+                width: 80px;
+                height: 80px;
+            }
+    
+            .name {
+                font-size: 25px;
+                font-weight: 600;
+            }
+    
+            .headline {
+                margin-top: -15px;
+                font-family: system-ui;
+                
+                font-weight: 400;
+            }
+    
+            button {
+                width: 80%;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .connections-main { 
+        margin: 5px;
+        gap: 0;
+        .headline {
+            margin-top: -15px;
+            font-size: 10px;
+        }
+        .grid-child {
+            width: 100px;
+            height: 170px;
+    
+            img {
+                width: 50px;
+                height: 50px;
+            }
+    
+            .name {
+                font-size: 15px;
+                font-weight: 600;
+            }
+    
+            .headline {
+                margin-top: -15px;
+                font-family: system-ui;
+                
+                font-weight: 400;
+            }
+    
+            button {
+                width: 80%;
+                font-size: 10px;
+            }
+        }
+    }
+}
