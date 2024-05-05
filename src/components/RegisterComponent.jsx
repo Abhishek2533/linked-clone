@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { RegisterApi } from "../api/AuthAPI";
+import { RegisterApi } from "../api/AuthApi";
 import { postUserData } from "../api/FirestoreAPI";
 import LinkedinLogo from "../assets/linkedinLogo.png";
 import { useNavigate } from "react-router-dom";
