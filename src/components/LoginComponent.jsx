@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LoginApi } from "../api/AuthApi";
-import LinkedinLogo from "../assets/LinkedinLogo.png";
+import LinkedinLogo from "../assets/linkedinLogo.png";
 import "../Sass/LoginComponent.scss";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
