@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Login from "../Pages/Login";
-import Register from "../Pages/Register";
-import HomeLayout from "../layouts/HomeLayout";
-import ProfileLayout from "../layouts/ProfileLayout";
-import ConnectionLayout from "../layouts/ConnectionLayout";
+import Login from "../Pages/Login.jsx";
+import Register from "../Pages/Register.jsx";
+import HomeLayout from "../layouts/HomeLayout.jsx";
+import ProfileLayout from "../layouts/ProfileLayout.jsx";
+import ConnectionLayout from "../layouts/ConnectionLayout.jsx";
 
 export const router = createBrowserRouter([
     {

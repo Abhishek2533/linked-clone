@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LoginApi } from "../api/AuthApi";
+import { LoginApi } from "../api/AuthApi.jsx";
 import LinkedinLogo from "../assets/linkedinLogo.png";
 import "../Sass/LoginComponent.scss";
 import { toast } from "react-toastify";

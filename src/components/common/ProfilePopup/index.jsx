@@ -1,8 +1,8 @@
 import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { onLogout } from "../../../api/AuthApi";
-import { getCurrentUser } from "../../../api/FirestoreAPI";
-import Button from "../Button";
+import { onLogout } from "../../../api/AuthApi.jsx";
+import { getCurrentUser } from "../../../api/FirestoreAPI.jsx";
+import Button from "../Button/index.jsx";
 import "./index.scss";
 
 export default function ProfilePopup() {

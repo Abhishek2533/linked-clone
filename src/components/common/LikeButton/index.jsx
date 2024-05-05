@@ -4,8 +4,8 @@ import {
   getLikesByUser,
   postComment,
   getComments,
-} from "../../../api/FirestoreAPI";
-import { getCurrentTimeStamp } from "../../../helpers/useMoment";
+} from "../../../api/FirestoreAPI.jsx";
+import { getCurrentTimeStamp } from "../../../helpers/useMoment.jsx";
 import "./index.scss";
 import { AiOutlineHeart, AiFillHeart, AiOutlineComment } from "react-icons/ai";
 import { BsFillHandThumbsUpFill, BsHandThumbsUp } from "react-icons/bs";

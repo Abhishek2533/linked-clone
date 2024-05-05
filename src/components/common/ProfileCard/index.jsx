@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from "react";
-import { getSingleStatus, getSingleUser } from "../../../api/FirestoreAPI";
-import PostCard from "../PostCard";
+import { getSingleStatus, getSingleUser } from "../../../api/FirestoreAPI.jsx";
+import PostCard from "../PostCard/index.jsx";
 import { HiOutlinePencil } from "react-icons/hi";
 import { useLocation } from "react-router-dom";
-import FileUploadModal from "../FileUploadModal";
-import { uploadImage as uploadImageAPI } from "../../../api/ImageUpload";
+import FileUploadModal from "../FileUploadModal/index.jsx";
+import { uploadImage as uploadImageAPI } from "../../../api/ImageUpload.jsx";
 import "./index.scss";
 
 export default function ProfileCard({ onEdit, currentUser }) {

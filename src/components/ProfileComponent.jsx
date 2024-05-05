@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProfileCard from "./common/ProfileCard";
-import ProfileEdit from "./common/ProfileEdit";
+import ProfileCard from "./common/ProfileCard/index.jsx";
+import ProfileEdit from "./common/ProfileEdit/index.jsx";
 
 export default function ProfileComponent({ currentUser }) {
   const [isEdit, setisEdit] = useState(false);

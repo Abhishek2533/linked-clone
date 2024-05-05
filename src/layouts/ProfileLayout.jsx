@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
-import { getCurrentUser } from "../api/FirestoreAPI";
-import TopBar from "../components/common/TopBar";
-import Profile from "../Pages/Profile";
+import { getCurrentUser } from "../api/FirestoreAPI.jsx";
+import TopBar from "../components/common/TopBar/index.jsx";
+import Profile from "../Pages/Profile.jsx";
 
 export default function ProfileLayout() {
   const [currentUser, setCurrentUser] = useState({});

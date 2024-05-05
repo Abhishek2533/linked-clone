@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
-import Home from "../Pages/Home";
-import { getCurrentUser } from "../api/FirestoreAPI";
+import Home from "../Pages/Home.jsx";
+import { getCurrentUser } from "../api/FirestoreAPI.jsx";
 import TopBar from "../components/common/TopBar/index.jsx";
 
 export default function HomeLayout() {

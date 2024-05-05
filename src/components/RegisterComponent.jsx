@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { RegisterApi } from "../api/AuthApi";
-import { postUserData } from "../api/FirestoreAPI";
+import { RegisterApi } from "../api/AuthApi.jsx";
+import { postUserData } from "../api/FirestoreAPI.jsx";
 import LinkedinLogo from "../assets/linkedinLogo.png";
 import { useNavigate } from "react-router-dom";
-import { getUniqueID } from "../helpers/getUniqueId";
+import { getUniqueID } from "../helpers/getUniqueId.jsx";
 import "../Sass/LoginComponent.scss";
 import { toast } from "react-toastify";
 

@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
-import Connections from "../Pages/Connections";
-import { getCurrentUser } from "../api/FirestoreAPI";
-import TopBar from "../components/common/TopBar";
+import Connections from "../Pages/Connections.jsx";
+import { getCurrentUser } from "../api/FirestoreAPI.jsx";
+import TopBar from "../components/common/TopBar/index.jsx";
 
 export default function ConnectionLayout() {
   const [currentUser, setCurrentUser] = useState({});

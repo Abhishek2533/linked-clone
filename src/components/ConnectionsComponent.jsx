@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { getAllUsers, addConnection } from "../api/FirestoreAPI";
-import ConnectedUsers from "./common/ConnectedUsers";
+import { getAllUsers, addConnection } from "../api/FirestoreAPI.jsx";
+import ConnectedUsers from "./common/ConnectedUsers/index.jsx";
 import "../Sass/ConnectionsComponent.scss";
 
 export default function ConnectionsComponent({ currentUser }) {
