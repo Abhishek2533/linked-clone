@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { onLogout } from "../../../api/AuthAPI";
+import { onLogout } from "../../../api/AuthApi";
 import { getCurrentUser } from "../../../api/FirestoreAPI";
 import Button from "../Button";
 import "./index.scss";
