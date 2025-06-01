@@ -19,6 +19,7 @@ export default function ConnectionsComponent({ currentUser }) {
           <></>
         ) : (
           <ConnectedUsers
+          key={user.id}
             currentUser={currentUser}
             user={user}
             getCurrentUser={getCurrentUser}
